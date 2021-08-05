@@ -21,11 +21,7 @@ return [
     // TaskView
     "example_task" => "TaskViewController@run",
 
-    // User
-    "add_user" => "UserController@add",
-    "get_users" => "UserController@get",
-
-    // File
-    "add_file" => "FileController@add",
+    //File
+    "create_files" => "FileController@create",
     "get_files" => "FileController@get"
 ];

@@ -30,13 +30,8 @@
         </a>
     </li>
     <li class="nav-item">
-        <a class="nav-link" onclick="user()" href="#user" data-toggle="tab">
-            <i class="fas fa-tasks"></i> {{ __("Kullanıcı Yönetimi") }}
-        </a>
-    </li>
-    <li class="nav-item">
         <a class="nav-link" onclick="file()" href="#file" data-toggle="tab">
-            <i class="fas fa-tasks"></i> {{ __("Dosya Yönetimi") }}
+            <i class="fas fa-tasks"></i> {{ __("Dosya Oluştur") }}
         </a>
     </li>
 </ul>
@@ -61,10 +56,8 @@
     <div id="sandbox" class="tab-pane">
         @include('sandbox.main')
     </div>
-    <div id="user" class="tab-pane">
-        @include('user.main')
-    </div>
-    <div id="dosya" class="tab-pane">
+    
+    <div id="file" class="tab-pane">
         @include('file.main')
     </div>
 </div>

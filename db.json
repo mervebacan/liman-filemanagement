@@ -1,8 +1,8 @@
 {
-    "name": "addition",
+    "name": "Yenieklentim",
     "publisher": "Administrator",
     "version": "0.0.1",
-    "version_code": 3,
+    "version_code": 2,
     "database": [],
     "widgets": [],
     "language": "php",
